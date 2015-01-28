@@ -1,0 +1,38 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+    
+ 	<com.example.hw5_2013.ChessView 
+ 	    android:layout_width="match_parent"
+ 	    android:layout_height="match_parent"
+ 	    android:id="@+id/chessView"
+ 	    />
+ 	
+ 	<LinearLayout
+ 	    android:layout_width="fill_parent"
+ 	    android:layout_height="fill_parent"
+ 	    android:orientation="horizontal"
+ 	    android:paddingLeft="28dip"
+ 	     >
+		<Button
+		    android:layout_width="100dip"
+		    android:layout_height="wrap_content"
+		    android:id="@+id/newGame"
+		    android:text="@string/newgame"
+		    />
+		<Button
+		    android:layout_width="100dip"
+		    android:layout_height="wrap_content"
+		    android:id="@+id/playBack"
+		    android:text="@string/playback"
+		    />
+		<Button
+		    android:layout_width="100dip"
+		    android:layout_height="wrap_content"
+		    android:id="@+id/draw"
+		    android:text="@string/draw"
+		    />
+	</LinearLayout>
+</RelativeLayout>

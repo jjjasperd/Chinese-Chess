@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">HW5_2013</string>
+    <string name="action_settings">Settings</string>
+    <string name="newgame">New</string>
+    <string name="playback">Back</string>
+    <string name="draw">Draw</string>
+
+</resources>
